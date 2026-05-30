@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "autoinventorysorter",
+  "version": "${version}",
+  "name": "Auto Inventory Sorter",
+  "description": "Automatic inventory sorting with smart profiles, hotbar organization, PvP presets, and more.",
+  "authors": [
+    "devxkamlesh"
+  ],
+  "contact": {
+    "homepage": "https://devxkamlesh.vercel.app",
+    "sources": "https://github.com/devxkamlesh/autoinventorysorter"
+  },
+  "license": "MIT",
+  "icon": "assets/autoinventorysorter/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.devxkamlesh.autoinventorysorter.AutoInventorySorter"
+    ],
+    "client": [
+      "com.devxkamlesh.autoinventorysorter.client.AutoInventorySorterClient"
+    ],
+    "modmenu": [
+      "com.devxkamlesh.autoinventorysorter.client.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "autoinventorysorter.mixins.json",
+    "autoinventorysorter.client.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.4",
+    "java": ">=21"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "modmenu.nameTranslation.autoinventorysorter": "Auto Inventory Sorter",
+  "modmenu.descriptionTranslation.autoinventorysorter": "Automatic inventory sorting with smart profiles, hotbar organization, PvP presets, and more.",
+  "key.autoinventorysorter.sort": "Sort Inventory",
+  "category.autoinventorysorter": "Auto Inventory Sorter",
+  "autoinventorysorter.config.title": "Auto Inventory Sorter Config",
+  "autoinventorysorter.sort.success": "Inventory sorted!",
+  "autoinventorysorter.profile.switched": "Profile switched to: "
+}
