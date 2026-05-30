@@ -1,9 +1,21 @@
 # Auto Inventory Sorter
 
+<p align="center">
+  <img src="logo.png" alt="Auto Inventory Sorter Logo" width="200"/>
+</p>
+
+<p align="center">
+  <strong>Smart inventory management for Minecraft</strong>
+</p>
+
+<p align="center">
+  
 [![Minecraft](https://img.shields.io/badge/Minecraft-1.21.8-green.svg)](https://www.minecraft.net/)
 [![Fabric](https://img.shields.io/badge/Mod%20Loader-Fabric-blue.svg)](https://fabricmc.net/)
 [![Java](https://img.shields.io/badge/Java-21-orange.svg)](https://www.oracle.com/java/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+</p>
 
 A powerful client-side Minecraft mod that automatically organizes your inventory with intelligent sorting, hotbar management, and quality-of-life features.
 
